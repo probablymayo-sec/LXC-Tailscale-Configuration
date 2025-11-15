@@ -6,7 +6,7 @@ This container allows me to access it from anywhere without direct exposure (por
 
 Theoretically, I could configure this container to act as a gateway, but this would pose 2 problems. 
 1. It would expose my entire network (so if someone got access to my tailscale they can see way more than just my proxmox)
-2. if the container is down, then I can’t connect to my proxmox host either. So if I shut off this vm on accident, the connection is gone. 
+2. if the container is down, then I can’t connect to my proxmox host either. So if I shut off this vm on accident or it fails in any way, the connection is gone. 
 
 <h2>Configuration</h2>
 
